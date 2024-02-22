@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.input-text {
+  padding: 30px;
+}
+
+.chat-history {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+}  
+
+.message-text {
+  background: #E8EBF5; 
+
+}
+
+.send-message-button {
+  padding: 10px
+}
+
+.chat-box {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.time-stamp {
+  font-size: 10px;
+  color: grey;
+
+}
+
+.sender-heading {
+  font-weight: bold;
+}
