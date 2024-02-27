@@ -4,12 +4,12 @@ by William Yang
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Version 2:
+![Uploading version 2.png…]()
 
-<img width="1475" alt="Screenshot 2024-02-27 at 10 33 28 am" src="https://github.com/wyang23/sample-chatbot-app/assets/92281375/b4de406e-32aa-4b47-a8ce-2498d0239600">
 
 
 Version 1:
-<img width="1458" alt="Screenshot 2024-02-21 at 2 16 02 pm" src="https://github.com/wyang23/sample-chatbot-app/assets/92281375/0839d922-2f2e-4df6-91ba-ff15ead2a801">
+![Uploading version 1.png…]()
 
 
 ## Available Scripts
