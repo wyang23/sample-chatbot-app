@@ -1,34 +1,29 @@
 .App {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  margin: 20px;
 }
 
 .input-text {
   padding: 30px;
+  width: 100%
 }
 
+
 .chat-history {
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   padding: 10px;
   margin-bottom: 10px;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
 }  
 
 .message-text {
-  background: #E8EBF5; 
-
 }
 
 .send-message-button {
   padding: 10px
-}
-
-.chat-box {
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid black;
 }
 
 .time-stamp {
@@ -39,4 +34,64 @@
 
 .sender-heading {
   font-weight: bold;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.input-container {
+  display: flex;
+  align-items: center; 
+  position: sticky;
+  bottom: 0;
+  padding: 20px;
+  background-color: #efefef;
+  
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.chat-box {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  min-width: 60%;
+  max-width: 80%; 
+  animation: slideInFromLeft 0.5s ease forwards; /* Animation */
+
+}
+
+
+.chat-box.user {
+  background-color: lightskyblue;
+  /*float: right;*/
+  align-self: flex-end; /* User chat boxes aligned to the right */
+
+}
+
+.chat-box.ai {
+  background-color: lightsteelblue;
+  /*float: left;*/
+  align-self: flex-start; /* AI chat boxes aligned to the left */
+
 }

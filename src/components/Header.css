@@ -1,1 +1,56 @@
+.header {
+   background-color: blue;
+   color: white;
+   padding: 0px 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 
+}
+
+h1 {
+    color: white;
+}
+
+
+.icon-list p {
+    margin: 0;
+}
+
+.icon-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.icon-list li {
+    display: inline-flex; /* Use flexbox */
+    flex-direction: column; /* Stack the icon and text vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: center; /* Center align items vertically */    margin-right: 20px;
+    width: 100px; /* Set a fixed width */
+
+
+  }
+
+  .icon-list li:hover {
+    background-color: white; /* Change background color on hover */
+  }
+
+
+  .icon-list li:hover .icon,
+  .icon-list li:hover p {
+    color: #001080; /* Change color of icons and font when li is hovered */
+  }
+  
+  .icon-container {
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 32px;
+  }
+  
+  .icon-container p {
+    margin-top: 5px;
+    font-size: 12px;
+  }
