@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Chatbot prototype using Gemini + React Front End 
+by William Yang
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
